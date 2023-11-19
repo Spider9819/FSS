@@ -1,0 +1,41 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th><abbr title="Position">Title</abbr></th>
+        <th>WordCount</th>
+        <th><abbr title="Played">Description</abbr></th>
+      </tr>
+      </thead>
+<thead>
+      <tr *ngFor="let page of pageList">
+        <th><abbr title="Title">{{page.title}}</abbr></th>
+        <th><abbr title="WordCount">{{page.wordcount}}</abbr></th>
+        <th><abbr title="Description"[innerHTML]="page.snippet"></abbr></th>
+      </tr>
+
+    </thead>
+
+      <tr>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

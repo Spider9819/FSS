@@ -1,0 +1,7 @@
+<div class="container">
+    <h2 class="has-text-primary has-text-centered m-5">Apnapedia</h2>
+
+    <!--component calling-->
+<app-search-bar (transmitter)="onSearch($event)"></app-search-bar>
+<app-pagelist [pageList]="pages"></app-pagelist>
+</div>
